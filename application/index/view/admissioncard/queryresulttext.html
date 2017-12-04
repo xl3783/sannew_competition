@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<style type="text/css">
+    .textInline{
+        display: inline;
+    }
+    .title1{
+        font-size: 28px;
+        color: #0000ff;
+        font-weight: bold;
+        text-align: center;
+    }
+    .title2{
+        font-size: 40px;
+        color: #000000;
+        font-weight: bold;
+        text-align: center;
+    }
+    .title3{
+        font-weight: bold;
+    }
+    .biglog{
+        font-size: 72px;
+        color: #ff0000;
+        text-align: center;
+
+    }
+    .content{
+
+    }
+
+
+</style>
+<body>
+<div></div>
+<!--startprint-->
+<div class="title1">2017-2018年度<br></div>
+<div class="title2">美国数学大联盟杯赛<br></div>
+<div class="biglog">准  考  证<br></div>
+
+<div>
+    <div class="textInline title3">姓    名：</div>
+    <div class="textInline">{$result.name}</div>
+</div>
+<div>
+    <div class="textInline title3">学    校：</div>
+    <div class="textInline">{$result.school}</div>
+    <div class="textInline title3">年级：</div>
+    <div class="textInline">{$result.grade}</div>
+</div>
+<div>
+    <div class="textInline title3">考试时间：</div>
+    <div class="textInline">2017年11月26日   上午9:30-11:00 （星期日）</div>
+</div>
+<div>
+    <div class="textInline title3">考试地点：</div>
+    <div class="textInline">{$result.position}</div>
+    <div class="textInline title3">考场号：</div>
+    <div class="textInline">{$result.posNumber}</div>
+</div>
+<div>
+    <div class="textInline title3">考试教室：</div>
+    <div class="textInline">{$result.classroom}</div>
+    <div class="textInline title3">座位号：</div>
+    <div class="textInline">{$result.site}</div>
+</div>
+<div>
+    <div class="textInline title3">考    号：</div>
+    <div class="textInline">{$result.number}</div>
+</div>
+<div>
+    <div class="textInline title3">备    注：</div>
+    <div class="textInline">考试流程及注意事项安排详见反面。</div>
+</div>
+<!--endprint-->
+
+</body>
+</html>
