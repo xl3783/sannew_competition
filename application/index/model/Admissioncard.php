@@ -5,7 +5,7 @@
  * Date: 17-11-10
  * Time: 上午8:59
  */
-namespace app\test\model;
+namespace app\index\model;
 use think\Model;
 
 class Admissioncard extends Model
